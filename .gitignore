@@ -1,0 +1,11 @@
+ml_project/model.pkl
+__pycache__/
+*.pyc
+*.pkl
+*.joblib
+*.h5
+*.pt
+.venv/
+venv/
+env/
+.ipynb_checkpoints/

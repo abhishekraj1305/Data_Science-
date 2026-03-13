@@ -1,0 +1,41 @@
+names = [
+    "Abhishek",
+    "Rahul",
+    "Rohit",
+    "Satyarth",
+    "Shivam",
+    "Anshul",
+    "Priya",
+    "Neha",
+    "Amit",
+    "Kunal",
+    "Vikram",
+    "Sneha",
+    "Tanya",
+    "Arjun",
+    "Megha",
+    "Ishita",
+    "Raghav",
+    "Manish",
+    "Nikhil",
+    "Pooja",
+    "Sakshi",
+    "Yash",
+    "Harshit",
+    "Divya",
+    "Akash",
+    "Nandini",
+    "Varun",
+    "Deepika",
+    "Saurabh",
+    "Krishna",
+    "Ritika",
+    "Aditya",
+    "Simran",
+    "Lakshya",
+    "Ananya"
+]
+
+for name in names:
+    if name.startswith("A"):
+        print(f"Hello {name}!")

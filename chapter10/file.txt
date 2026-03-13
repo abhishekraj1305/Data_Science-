@@ -1,0 +1,318 @@
+﻿Abhishek Raj (+91) 6201270892
+Data Scientist Chandigarh, Punjab, IN
+r.abhishek1305@gmail.com
+Linkedin: https://www.linkedin.com/in/abhishekraj1305/
+
+
+Github: https://github.com/abhishekraj1305
+
+
+Portfolio: https://www.datascienceportfol.io/Abhishekraj1305
+
+
+SKILLS
+Language and other Python
+Databases: SQL | MongoDB
+Tools & platforms Tableau | Power BI | Jira | Salesforce | Excel | Snowflake | Office Suit | Azure
+Frameworks & libraries NumPy | SciPy | Pandas | Matplotlib | Seaborn | Plotly | TensorFlow | PyTorch | Scikit-learn
+Work Experience
+Data Scientist at AiToXr Pvt. ltd 05/2024 - present Chandigarh, IN
+● Automated data scraping solutions for 160+ countries' websites using Azure Virtual Machines, overcoming complex regulatory
+challenges and ensuring compliance.
+● Automated data refresh processes on Azure, utilizing Azure Blob Storage and Azure Containers, reducing manual
+intervention by 90-95% and boosting accuracy and operational efficiency.
+Data science intern at Data Knob 04/2023 - 06/2023 U.S.A. (remote)
+● Automated a Python web scraping script using BeautifulSoup and requested to extract data from a website by parsing
+HTML and retrieving specific elements based on class attributes.
+● Retrieved apartment titles, prices, and other contents from target websites by implementing data extraction techniques from
+multiple div elements and organized the Collected data into a comprehensive dictionary list for further analysis and
+processing.
+● Executed a plan to collect data on over 100,000 real estate listings. The accuracy of the data was 88%—insights from the data
+Produced approximately $5000 in revenue for new real estate development.
+Data Analyst Intern at StartupAccel 03/2023 - 04/2023 Noida, U.P
+● increased customer satisfaction (20%) and reduced support costs (30%).
+● automated booking feature and its impact on customer efficiency or revenue.
+● Emphasising your ability to translate business needs into a technical solution.
+Projects
+NLP Zomato rating prediction
+● Engineered a robust NLP model using Python, NumPy, SciPy, Pandas, NLTK, and TensorFlow to predict Zomato ratings
+based on a massive dataset of 1,000,000+ restaurant reviews, it exceeded an impressive 85% accuracy, empowering
+restaurants to enhance customer satisfaction and drive revenue growth.
+● Constructed and created an NLP Zomato rating prediction model using a dataset of over 1 million restaurant reviews. The
+model could predict restaurant ratings with an accuracy of 90%.
+HR Analytics Dashboard
+● Designed and developed an interactive Power BI dashboard to visualize and analyze HR data with 95% accuracy.
+● HR teams were able to improve their HR strategy by using the dashboard to identify trends and patterns in HR data. The
+dashboard gave rise to a 10% increase in employee satisfaction and a 5% decrease in employee turnover.
+● The dashboard helped HR teams make better employee management decisions by providing real-time insights into employee
+performance. This resulted in an 85% increase in employee productivity and a 72% decrease in employee absenteeism.
+Education
+➢ Sant longowal Institute of Engineering and Technology 07/2021 - 05/2024
+Bachelor of Engineering in Electrical Engineering Longowal, Punjab
+➢ SLIET Longowal 07/2018 - 05/2021
+Diploma in Electrical Engineering Longowal, Punjab
+➢ Resonance International School, 03/2017 - 03/2018
+Matriculation Muzaffarpur, Bihar
+Achievements
+Best Intern Award
+Issued by ACMEGRADE, Sep 2022
+● Led a team of 5 interns to complete a project successfully.
+● Received a company award for outstanding performance
+
+
+
+Abhishek Raj: Personal and Professional Profile
+Personal Information:
+* Full Name: Abhishek Raj
+* Date of Birth: 13 May 2000
+* Age: 24 years
+* Nationality: Indian
+* Current Location: Samastipur, Bihar (Relocating to Gurgaon for work)
+* Marital Status: Single
+* Contact Number: +91 6201270892
+* Portfolio: Data Science Portfolio
+________________
+
+
+Professional Details:
+* Current Job Role: Digital Transformation Specialist
+* Current Employer: Jay Switches
+* Total Experience: 1.5 years (1 year relevant in Data Science, AI, and Machine Learning)
+* Technical Skills:
+   * Programming Languages: Python (4 years), SQL (3 years)
+   * Machine Learning & AI: 2 years of experience in ML & GenAI projects
+   * Data Science & Analytics: Data visualization, model deployment, chatbot development
+   * Cloud & Automation: Office 365 (SharePoint, Teams, Power Automate, Power Apps, Forms, Power Pages)
+   * Other Tools: Excel, Power BI, APIs, Web Scraping
+* Previous Roles: Python Developer and Data Scientist at AiToXr
+* Notable Projects:
+   * Scraped data from 50+ country websites for compliance analysis
+   * Built chatbots using Llama 2 and other AI models
+   * Developed computer vision models during a Data Science internship
+   * Leading Daily Work Management System transformation at Jay Switches using Excel, Power Apps, and automation
+* Current Salary: ₹50,000/month (Expected: ₹60,000–₹70,000/month)
+* Notice Period: 1 Month
+________________
+
+
+Educational Background:
+* Degree: Bachelor of Engineering (B.E.) in electrical engineering 
+* Field: Data Science & Machine Learning Enthusiast
+* Certifications: Various online certifications in Data Science, AI, Python, and Automation
+________________
+
+
+Career Aspirations & Goals:
+* Become an expert in Python, Data Science, AI, and Office 365 tools
+* Work on high-impact AI & ML projects
+* Transition into a leadership role in Digital Transformation & AI
+* Continue growing wealth through savings and investments
+________________
+
+
+Content Creation & Online Presence:
+* LinkedIn Strategy: Regularly posts about Data Science, AI, ML, Python, and career growth
+* Instagram: Runs 'Abhishek Rajarts' for sketches, scribbling, and digital drawings
+* Medium Blog: Aims to post daily on technology, AI, Python, and personal growth
+________________
+
+
+Personal Lifestyle & Habits:
+* Health & Fitness: Working on improving physical and mental health
+* Current Weight & Height: 54 kg, 5'7"
+* Lifestyle Goals:
+   * Quit smoking & tobacco (Currently at 3-5 cigarettes/day + chewing tobacco)
+   * Using Nicotex to reduce nicotine dependency
+   * Avoid alcohol and other addictions
+* Challenge: If he avoids nicotine and alcohol from Feb 3 to May 10, he will reward himself with an iPad Air with Magic Keyboard & Pencil on his birthday
+________________
+
+
+Financial Planning & Investments:
+* Monthly Fixed Expenses:
+   * PG Rent: ₹17,000
+   * Travel: ₹1,600
+   * Food & Snacks: ₹60–₹100/day
+   * Slice EMI: ₹4,000/month (until ₹30,000 total is paid)
+* Wealth Growth Strategy: Saving and investing as much as possible
+* Planned Purchase: iPad Air with ₹30,000–₹50,000 down payment and the rest on EMI
+________________
+
+
+Interests & Hobbies:
+* Tech & AI: Passionate about learning and applying AI & ML in real-world scenarios
+* Art & Creativity: Sketching, digital drawing, and content creation
+* Plant Care: He owns a snake plant in his room
+* Self-Improvement: Focused on productivity, discipline, and career growth
+________________
+
+
+Future Learning Plans:
+* Python Mastery: Aims to reach an advanced level in 6 months (Practicing 1-2 hours per night)
+* Office 365 Expertise: Learning SharePoint, Power Apps, and Power Automate for real-world applications in my current job
+* Financial Literacy: Exploring investment opportunities to build long-term wealth
+________________
+
+
+This document serves as a structured profile of Abhishek Raj, highlighting his personal, professional, and aspirational details for chatbot training and other purposes.
+
+
+Professional Details:
+* Current Job Role: Digital Transformation Specialist
+* Current Employer: Jay Switches
+* Total Experience: 1.5 years (1 year relevant in Data Science, AI, and Machine Learning)
+* Technical Skills:
+   * Programming Languages: Python (4 years), SQL (3 years)
+   * Machine Learning & AI: 2 years of experience in ML & GenAI projects
+   * Data Science & Analytics: Data visualization, model deployment, chatbot development
+   * Cloud & Automation: Office 365 (SharePoint, Teams, Power Automate, Power Apps, Forms, Power Pages)
+   * Web Development & Scripting: Flask, FastAPI, REST APIs
+   * Other Tools: Excel, Power BI, APIs, Web Scraping, GitHub, Docker
+* Previous Roles: Python Developer and Data Scientist at AiToXr
+* Notable Projects:
+   * Scraped data from 50+ country websites for compliance analysis
+   * Built chatbots using Llama 2 and other AI models
+   * Developed computer vision models during a Data Science internship
+   * Leading Daily Work Management System transformation at Jay Switches using Excel, Power Apps, and automation
+
+
+
+
+
+
+Professional Details:
+* Current Job Role: Digital Transformation Specialist
+* Current Employer: Jay Switches
+* Total Experience: 1.5 years (1 year relevant in Data Science, AI, and Machine Learning)
+* Technical Skills:
+   * Programming Languages: Python (4 years), SQL (3 years)
+   * Machine Learning & AI: 2 years of experience in ML & GenAI projects
+   * Data Science & Analytics: Data visualization, model deployment, chatbot development
+   * Cloud & Automation: Office 365 (SharePoint, Teams, Power Automate, Power Apps, Forms, Power Pages)
+   * Web Development & Scripting: Flask, FastAPI, REST APIs
+   * Other Tools: Excel, Power BI, APIs, Web Scraping, GitHub, Docker
+* Previous Roles: Python Developer cum Data Scientist at AiToXr
+* Notable Projects:
+   * Scraped data from 50+ country websites for compliance analysis
+   * Built chatbots using Llama 2 and other AI models
+   * Developed computer vision models during a Data Science internship
+   * Leading Daily Work Management System transformation at Jay Switches using Excel, Power Apps, and automation
+* Certifications: Various online certifications in Data Science, AI, Python, and Automation
+________________
+
+
+Career Aspirations & Goals:
+* Become an expert in Python, Data Science, AI, and Office 365 tools
+* Work on high-impact AI & ML projects
+* Transition into a leadership role in Digital Transformation & AI
+* Continue growing wealth through savings and investments
+________________
+
+
+Content Creation & Online Presence:
+* LinkedIn Strategy: Regularly posts about Data Science, AI, ML, Python, and career growth
+* Instagram: Runs 'Abhishek Rajarts' for sketches, scribbling, and digital drawings
+* Medium Blog: Aims to post daily on technology, AI, Python, and personal growth
+________________
+
+
+Personal Stories:
+1. First Python Project: Started coding in Python during college, creating a basic chatbot that could answer simple questions, which sparked his interest in AI.
+2. Overcoming Self-Doubt: I initially struggled with confidence in Python and Data Science but overcame it through rigorous practice and real-world applications.
+3. The Gurgaon Move: Transitioning from a small town to a corporate job in a big city, facing cultural and financial adjustments while staying determined to succeed.
+4. Building a Personal AI Assistant: Currently working on a self-learning AI assistant that automates repetitive tasks using Power Automate and Python.
+5. Health Transformation Journey: Actively working on quitting smoking and improving lifestyle habits for better productivity and well-being.
+________________
+
+
+Additional Technical Knowledge & Tools:
+* Deep Learning Frameworks: TensorFlow, PyTorch
+* NLP & LLMs: GPT, LLaMA, BERT, fine-tuning and model optimization
+* MLOps: Model deployment and monitoring using Docker, Kubernetes, and CI/CD pipelines
+* Database Management: PostgreSQL, MongoDB, Firebase
+* Big Data Technologies: Spark, Dask, Hadoop (basic understanding)
+* API Development & Integration: Flask, FastAPI, Django REST framework
+* Cybersecurity Awareness: Basic understanding of encryption, secure coding, and API security
+Personal Stories:
+1. First Python Project: Started coding in Python during college, creating a basic chatbot that could answer simple questions, which sparked his interest in AI.
+2. Overcoming Self-Doubt: Initially struggled with confidence in Python and Data Science but overcame it through rigorous practice and real-world applications.
+3. The Gurgaon Move: Transitioning from a small town to a corporate job in a big city, facing cultural and financial adjustments while staying determined to succeed.
+4. Building a Personal AI Assistant: Currently working on a self-learning AI assistant that automates repetitive tasks using Power Automate and Python.
+5. Health Transformation Journey: Actively working on quitting smoking and improving lifestyle habits for better productivity and well-being.
+6. First Freelancing Gig: Took up a freelancing data scraping project, learning the importance of client communication and time management.
+7. Failed Startup Attempt: Tried launching an AI-based analytics tool but lacked funding and market experience, which became a valuable learning experience.
+8. Hacking Together an Automation: Built a bot that automatically organized emails and work notifications to reduce distractions and improve productivity.
+________________
+
+
+Personal Lifestyle & Habits:
+* Health & Fitness: Working on improving physical and mental health
+* Current Weight & Height: 54 kg, 5'7"
+* Lifestyle Goals:
+   * Quit smoking & tobacco (Currently at 3-5 cigarettes/day + chewing tobacco)
+   * Using Nicotex to reduce nicotine dependency
+   * Avoid alcohol and other addictions
+   * Improve diet and fitness through exercise and mindful eating
+* Challenge: If he avoids nicotine and alcohol from Feb 3 to May 10, he will reward himself with an iPad Air with Magic Keyboard & Pencil on his birthday
+________________
+
+
+Financial Planning & Investments:
+* Monthly Fixed Expenses:
+   * PG Rent: ₹17,000
+   * Travel: ₹1,600
+   * Food & Snacks: ₹60–₹100/day
+   * Slice EMI: ₹4,000/month (until ₹30,000 total is paid)
+* Wealth Growth Strategy: Saving and investing as much as possible
+* Planned Purchase: iPad Air with ₹30,000–₹50,000 down payment and the rest on EMI
+* Investment Interests:
+   * Stocks, mutual funds, and real estate
+   * Exploring AI-based trading bots for passive income
+   * Cryptocurrency (long-term holdings, minimal risk exposure)
+________________
+
+
+Interests & Hobbies:
+* Tech & AI: Passionate about learning and applying AI & ML in real-world scenarios
+* Art & Creativity: Sketching, digital drawing, and content creation
+* Music: Enjoys listening to instrumental music while working
+* Travel & Adventure: Wants to explore different cities and cultures
+* Self-Improvement: Focused on product
+
+
+Family Background & Personal Life
+Family Details:
+* Family Dependence: Currently the only working member, financially supporting the family.
+* Parental Support: Parents reside in Samastipur, Bihar.
+* Siblings:
+   * Sister: Completed 12th with Physics, Chemistry, and Biology, now pursuing a BSc (Zoology) through IGNOU in Hindi medium.
+   * Education Challenges: She studied in Hindi medium and has limited English proficiency.
+Family Values & Influence:
+* Grew up in a middle-class family with strong values of hard work, persistence, and responsibility.
+* Believes in the importance of education and self-improvement, inspired by parents’ struggles.
+* Took up financial responsibility at an early stage due to family dependence.
+Personal Challenges & Growth:
+* Transitioning from a small-town background to the corporate world, learning to adapt.
+* Managing financial pressure while ensuring the family is taken care of.
+* Overcoming language and resource limitations to build a strong career in AI & Data Science.
+________________
+Family Background & Support System
+Grandfather's Influence:
+* Name & Legacy: Your grandfather was a strong influence in your life, known for his wisdom and discipline.
+* Life Lessons: He instilled values of hard work, honesty, and self-reliance, shaping your disciplined approach to learning and career growth.
+* Health Struggles & Strength: He battled health issues but remained mentally strong, teaching you resilience.
+Parental Support:
+* Father & Mother: Your parents have always supported you emotionally, even when financial resources were limited.
+* Struggles & Sacrifices: They worked hard to ensure you and your sister had access to education.
+Sibling Bond:
+* Sister’s Aspirations: She is pursuing BSc in Zoology but faces challenges due to language barriers.
+* Your Role: You support her educationally and financially, guiding her to achieve her career goals.
+________________
+
+
+Health & Lifestyle
+* Past Struggles: Stress, lack of sleep, and reliance on smoking/tobacco for relief.
+* Current Focus:
+   * Quitting nicotine & tobacco (actively using Nicotex).
+   * Improving diet & fitness (targeting weight gain and mental clarity).
+   * Balancing work pressure while maintaining good health.
