@@ -1,0 +1,2609 @@
+{
+    "chunks": [
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 0.0,
+            "end": 2.6,
+            "text": " Welcome back to 100 days of code."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 2.6,
+            "end": 5.44,
+            "text": " In today's video, we'll talk about modules."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 5.44,
+            "end": 7.2,
+            "text": " And what is PIP?"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 7.2,
+            "end": 9.84,
+            "text": " Modules are basically used to borrow other people's code."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 9.84,
+            "end": 14.120000000000001,
+            "text": " That means you can use someone else's code in your Python program"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 14.120000000000001,
+            "end": 15.24,
+            "text": " with the help of modules."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 15.24,
+            "end": 16.56,
+            "text": " There are two types of modules."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 16.56,
+            "end": 18.0,
+            "text": " We have built-in modules."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 18.0,
+            "end": 19.72,
+            "text": " And we have external modules"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 19.72,
+            "end": 21.88,
+            "text": " which are installed with the help of PIP."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 21.88,
+            "end": 24.8,
+            "text": " External modules are those codes that people have written"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 24.8,
+            "end": 28.32,
+            "text": " and they want you to use their code in your Python program."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 28.32,
+            "end": 30.36,
+            "text": " Let's say I'm using this phone."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 30.36,
+            "end": 32.12,
+            "text": " I don't know what's going on inside this phone"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 32.12,
+            "end": 34.24,
+            "text": " and how it's working."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 34.24,
+            "end": 36.12,
+            "text": " But I'm still able to use this phone."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 36.12,
+            "end": 38.120000000000005,
+            "text": " This is an external module for me."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 38.120000000000005,
+            "end": 39.92,
+            "text": " I don't know what its implementation is."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 39.92,
+            "end": 41.120000000000005,
+            "text": " But I'm able to use it."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 41.120000000000005,
+            "end": 42.92,
+            "text": " Built-in modules, on the other hand,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 42.92,
+            "end": 46.64,
+            "text": " are those modules that are shipped with the Python programming language."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 46.64,
+            "end": 49.8,
+            "text": " That means you don't need to install them externally."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 49.8,
+            "end": 54.96,
+            "text": " We use modules because we don't want to code every basic thing from scratch."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 54.96,
+            "end": 57.84,
+            "text": " If you're working in a big machine learning program,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 57.84,
+            "end": 61.32,
+            "text": " if you're making a self-driving car with artificial intelligence,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 61.32,
+            "end": 65.04,
+            "text": " you won't want to write a program to get an average of 10 numbers."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 65.04,
+            "end": 68.48,
+            "text": " Or you can write a program to get a geometric mean of 10 numbers."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 68.48,
+            "end": 69.88000000000001,
+            "text": " It can have a human error."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 69.88000000000001,
+            "end": 73.12,
+            "text": " This code is written inside the modules."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 73.12,
+            "end": 74.36,
+            "text": " It's well-tested."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 74.36,
+            "end": 75.96000000000001,
+            "text": " It's written by experts."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 75.96000000000001,
+            "end": 78.48,
+            "text": " And because a lot of people have used it,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 78.48,
+            "end": 80.96000000000001,
+            "text": " it has very low chances of error."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 80.96000000000001,
+            "end": 83.36,
+            "text": " Now, if you want, you can write a program from scratch"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 83.36,
+            "end": 84.56,
+            "text": " for your understanding."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 84.60000000000001,
+            "end": 87.36,
+            "text": " But if you use modules,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 87.36,
+            "end": 89.16,
+            "text": " you'll save time and effort."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 89.16,
+            "end": 91.64,
+            "text": " And you'll be able to work on a big thing."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 91.64,
+            "end": 94.48,
+            "text": " Let's go to the computer screen and install some modules"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 94.48,
+            "end": 97.04,
+            "text": " and see how they work."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 97.04,
+            "end": 98.24000000000001,
+            "text": " Let's get started."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 107.4,
+            "end": 109.72,
+            "text": " So guys, I'm inside my computer screen."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 109.72,
+            "end": 113.0,
+            "text": " And I'll open my Day 3 raffle here quickly."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 113.04,
+            "end": 117.16,
+            "text": " And here you'll get to see this video that I'm recording right now."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 117.16,
+            "end": 119.36,
+            "text": " But because this video is not recorded here,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 119.36,
+            "end": 120.4,
+            "text": " I'll put it aside."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 120.4,
+            "end": 121.8,
+            "text": " You'll get to see the video here."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 121.8,
+            "end": 122.84,
+            "text": " By the way, tell me."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 122.84,
+            "end": 126.36,
+            "text": " And along with that, I'll adjust it like this."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 126.36,
+            "end": 129.6,
+            "text": " You can adjust it as you like."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 129.6,
+            "end": 131.28,
+            "text": " I want to tell you quickly"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 131.28,
+            "end": 134.04,
+            "text": " what modules are in Python."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 134.04,
+            "end": 138.52,
+            "text": " Whenever you write any code in Python programming language,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 138.52,
+            "end": 139.84,
+            "text": " you can write it in two ways."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 139.84,
+            "end": 141.72,
+            "text": " Either you're writing that code yourself"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 141.72,
+            "end": 144.2,
+            "text": " or you can take help from modules."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 144.2,
+            "end": 147.04,
+            "text": " If you've installed Python in your computer"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 147.04,
+            "end": 148.84,
+            "text": " and you go to your terminal"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 148.84,
+            "end": 150.16,
+            "text": " and you write pip,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 150.16,
+            "end": 152.12,
+            "text": " you'll get to see a utility."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 152.12,
+            "end": 155.0,
+            "text": " Because I'm in Mac, pip3 will work in my computer."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 155.0,
+            "end": 157.36,
+            "text": " If you're in Linux or Mac, pip3 will work."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 157.36,
+            "end": 159.07999999999998,
+            "text": " Pip works in Windows."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 159.07999999999998,
+            "end": 161.16,
+            "text": " But you can see here, as soon as I wrote pip3,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 161.16,
+            "end": 163.4,
+            "text": " I got to see a lot of things here."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 163.4,
+            "end": 166.48,
+            "text": " If I write pip3 install pandas,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 166.48,
+            "end": 168.76,
+            "text": " now you don't need to know what pandas is,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 168.76,
+            "end": 170.12,
+            "text": " what I'm writing."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 170.16,
+            "end": 172.88,
+            "text": " So you can see here, it's collecting pandas."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 172.88,
+            "end": 176.4,
+            "text": " It's downloading a package from 1.1 MBPS."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 176.4,
+            "end": 178.44,
+            "text": " Let me explain what's going on here."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 178.44,
+            "end": 180.48000000000002,
+            "text": " When I write pip install pandas,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 180.48000000000002,
+            "end": 183.12,
+            "text": " then I command my pip"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 183.12,
+            "end": 185.72,
+            "text": " that I want to install a package named pandas."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 185.72,
+            "end": 186.72,
+            "text": " Now what is pandas?"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 186.72,
+            "end": 188.4,
+            "text": " It's a data analysis library,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 188.4,
+            "end": 190.12,
+            "text": " as you can see here."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 190.12,
+            "end": 191.52,
+            "text": " But let me tell you"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 191.52,
+            "end": 194.6,
+            "text": " that you can use a lot of modules in the same way."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 194.6,
+            "end": 197.36,
+            "text": " Look here, I've used pandas."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 197.36,
+            "end": 199.64000000000001,
+            "text": " Now, this is a way to explain"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 200.04,
+            "end": 201.92,
+            "text": " what pip is."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 201.92,
+            "end": 205.32,
+            "text": " When you were a kid, your mom used to send you things."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 205.32,
+            "end": 207.23999999999998,
+            "text": " And she'd tell you to go get milk,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 207.23999999999998,
+            "end": 210.39999999999998,
+            "text": " or get yogurt, or get bread, or get butter."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 210.39999999999998,
+            "end": 212.27999999999997,
+            "text": " And whatever you brought home,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 212.27999999999997,
+            "end": 213.67999999999998,
+            "text": " it was available at your house."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 213.67999999999998,
+            "end": 216.04,
+            "text": " So you were basically the package manager of your house."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 216.04,
+            "end": 217.56,
+            "text": " Whatever you needed,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 217.56,
+            "end": 219.83999999999997,
+            "text": " you brought it from a useful place and kept it at home."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 219.83999999999997,
+            "end": 222.39999999999998,
+            "text": " That's how pip is a package manager."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 222.39999999999998,
+            "end": 223.44,
+            "text": " Whatever you need,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 223.44,
+            "end": 224.51999999999998,
+            "text": " it brings it from the internet"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 224.51999999999998,
+            "end": 227.04,
+            "text": " and installs it in your Python interpreter."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 227.07999999999998,
+            "end": 229.76,
+            "text": " For example, it has installed pandas here,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 229.76,
+            "end": 231.0,
+            "text": " as you can see."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 231.0,
+            "end": 233.23999999999998,
+            "text": " Now I can use pandas."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 233.23999999999998,
+            "end": 235.48,
+            "text": " But do you need to bring everything?"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 235.48,
+            "end": 237.68,
+            "text": " If you need a refrigerator,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 237.68,
+            "end": 239.32,
+            "text": " then there is a refrigerator in almost every house."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 239.32,
+            "end": 242.6,
+            "text": " And you don't need to bring the refrigerator from outside."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 242.6,
+            "end": 244.48,
+            "text": " It's a built-in module."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 244.48,
+            "end": 245.92,
+            "text": " It's available in your house."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 245.92,
+            "end": 247.64,
+            "text": " There is a needle in every house."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 247.64,
+            "end": 248.64,
+            "text": " There is a needle thread."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 248.64,
+            "end": 249.88,
+            "text": " There is a spoon in every house."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 249.88,
+            "end": 250.79999999999998,
+            "text": " There is a plate in every house."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 250.79999999999998,
+            "end": 252.6,
+            "text": " So these are all built-in modules."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 252.6,
+            "end": 253.68,
+            "text": " They are available in every house."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 253.68,
+            "end": 256.28,
+            "text": " So you don't need to bring it from outside every time."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 256.32,
+            "end": 258.76,
+            "text": " That's how built-in modules and external modules work."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 258.76,
+            "end": 260.35999999999996,
+            "text": " So whatever module we need to install,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 260.35999999999996,
+            "end": 262.4,
+            "text": " we can install it with the help of pip."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 262.4,
+            "end": 264.35999999999996,
+            "text": " And after that, if I write Python 3 here,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 264.35999999999996,
+            "end": 266.23999999999995,
+            "text": " and if you are in Windows, then write Python."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 266.23999999999995,
+            "end": 269.0,
+            "text": " So you will get to see Python 3.11 in this way."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 269.0,
+            "end": 270.71999999999997,
+            "text": " Let me zoom in a little."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 270.71999999999997,
+            "end": 271.55999999999995,
+            "text": " Yes, it's fine now."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 271.55999999999995,
+            "end": 273.71999999999997,
+            "text": " So if I write import pandas here,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 273.71999999999997,
+            "end": 275.96,
+            "text": " then you see, I will not get to see the error."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 275.96,
+            "end": 278.96,
+            "text": " But if I write import sklearn here,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 278.96,
+            "end": 280.44,
+            "text": " then I will get to see the error."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 280.44,
+            "end": 281.52,
+            "text": " Module not found error."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 281.52,
+            "end": 283.4,
+            "text": " No module named sklearn."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 283.4,
+            "end": 286.32,
+            "text": " This happened because this module was not present in my computer."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 286.32,
+            "end": 288.15999999999997,
+            "text": " Now don't worry at all,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 288.15999999999997,
+            "end": 289.47999999999996,
+            "text": " what are all these things being written?"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 289.47999999999996,
+            "end": 290.52,
+            "text": " You won't understand."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 290.52,
+            "end": 291.28,
+            "text": " I know."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 291.28,
+            "end": 293.35999999999996,
+            "text": " I'm just telling you for your understanding"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 293.35999999999996,
+            "end": 295.52,
+            "text": " how modules are grabbed."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 295.52,
+            "end": 297.47999999999996,
+            "text": " So I will come out of Python's wrapper."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 297.47999999999996,
+            "end": 298.28,
+            "text": " I will write exit."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 298.28,
+            "end": 300.59999999999997,
+            "text": " Now if I want to install sklearn,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 300.59999999999997,
+            "end": 303.79999999999995,
+            "text": " then I will write pip3 install scikit-learn."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 303.79999999999995,
+            "end": 306.0,
+            "text": " Now when I use the package, I will write sklearn."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 306.0,
+            "end": 308.4,
+            "text": " But I will install it in the name of scikit-learn."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 308.4,
+            "end": 309.71999999999997,
+            "text": " So you can see it is installing."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 309.71999999999997,
+            "end": 311.59999999999997,
+            "text": " And it is installing at a very good speed."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 311.6,
+            "end": 315.16,
+            "text": " And now if I write python3 and import sklearn,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 315.16,
+            "end": 316.20000000000005,
+            "text": " then my work will be done."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 316.20000000000005,
+            "end": 318.16,
+            "text": " Now it is installing some dependencies,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 318.16,
+            "end": 319.84000000000003,
+            "text": " which may take some time."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 319.84000000000003,
+            "end": 320.48,
+            "text": " What is sklearn?"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 320.48,
+            "end": 321.8,
+            "text": " It is a machine learning library."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 321.8,
+            "end": 322.96000000000004,
+            "text": " Are we using it now?"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 322.96000000000004,
+            "end": 324.16,
+            "text": " Not just yet."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 324.16,
+            "end": 324.72,
+            "text": " Okay."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 324.72,
+            "end": 327.04,
+            "text": " So if I write sklearn here,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 327.04,
+            "end": 330.40000000000003,
+            "text": " then you will get to see the machine learning library in Python."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 330.40000000000003,
+            "end": 331.88,
+            "text": " We will do everything."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 331.88,
+            "end": 332.64000000000004,
+            "text": " We will make a blast."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 332.64000000000004,
+            "end": 333.8,
+            "text": " You don't worry."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 333.8,
+            "end": 336.72,
+            "text": " A lot of people are commenting to me right now that it is running very slow."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 336.72,
+            "end": 338.36,
+            "text": " We know a lot of things."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 338.36,
+            "end": 339.84000000000003,
+            "text": " I meet them after a few days."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 339.84,
+            "end": 341.84,
+            "text": " And when the difficulty level increases a little,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 341.84,
+            "end": 342.96,
+            "text": " and there will be an understanding,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 342.96,
+            "end": 344.0,
+            "text": " then it is guaranteed."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 344.0,
+            "end": 346.0,
+            "text": " You follow me step by step all day."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 346.0,
+            "end": 348.0,
+            "text": " Here I want to show you,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 348.0,
+            "end": 350.71999999999997,
+            "text": " as soon as it is installed,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 350.71999999999997,
+            "end": 353.03999999999996,
+            "text": " and I will write python3 after this,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 353.03999999999996,
+            "end": 355.03999999999996,
+            "text": " I want to show you import sklearn."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 355.03999999999996,
+            "end": 359.91999999999996,
+            "text": " The import sklearn will work here."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 359.91999999999996,
+            "end": 361.03999999999996,
+            "text": " You see, I will import sklearn."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 361.03999999999996,
+            "end": 361.67999999999995,
+            "text": " It will work."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 361.67999999999995,
+            "end": 362.52,
+            "text": " No error will come."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 362.52,
+            "end": 363.03999999999996,
+            "text": " Okay."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 363.03999999999996,
+            "end": 364.71999999999997,
+            "text": " So I will exit it here."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 364.71999999999997,
+            "end": 369.52,
+            "text": " Now this thing that we are able to see by writing python3 here,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 369.52,
+            "end": 370.56,
+            "text": " this is a repl."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 370.56,
+            "end": 371.35999999999996,
+            "text": " This is a repl."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 371.35999999999996,
+            "end": 375.35999999999996,
+            "text": " Repl means read, evaluate, print loop."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 375.35999999999996,
+            "end": 376.15999999999997,
+            "text": " Okay."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 376.15999999999997,
+            "end": 377.44,
+            "text": " We will not use it."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 377.44,
+            "end": 378.79999999999995,
+            "text": " We will write proper programs."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 378.79999999999995,
+            "end": 382.0,
+            "text": " And we will execute it by writing python scripts."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 382.0,
+            "end": 383.84,
+            "text": " And for this, I am using replit."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 383.84,
+            "end": 385.52,
+            "text": " Can you do it without replit?"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 385.52,
+            "end": 386.96,
+            "text": " Absolutely, it is possible."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 386.96,
+            "end": 390.56,
+            "text": " But I am using replit because replit is very convenient."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 390.56,
+            "end": 390.96,
+            "text": " Okay."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 390.96,
+            "end": 394.32,
+            "text": " So I will make a file here called main.py."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 394.32,
+            "end": 397.03999999999996,
+            "text": " And I will take the output of this console here."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 397.03999999999996,
+            "end": 399.28,
+            "text": " You see, as soon as I drag it and leave it here,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 399.28,
+            "end": 400.96,
+            "text": " I will get to see the output here."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 400.96,
+            "end": 403.03999999999996,
+            "text": " You will also get to see my video here,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 403.03999999999996,
+            "end": 405.03999999999996,
+            "text": " which is going to be super convenient for you."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 405.03999999999996,
+            "end": 408.08,
+            "text": " So in main.py, what I will simply write here,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 408.08,
+            "end": 410.15999999999997,
+            "text": " I will write import pandas."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 410.15999999999997,
+            "end": 412.08,
+            "text": " And you know what is the best thing about replit?"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 412.08,
+            "end": 415.35999999999996,
+            "text": " As soon as I run it, it will detect that there is no pandas."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 415.35999999999996,
+            "end": 417.35999999999996,
+            "text": " So it will automatically install it."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 417.35999999999996,
+            "end": 419.52,
+            "text": " So don't be confused that why there is no error."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 419.52,
+            "end": 424.71999999999997,
+            "text": " The error did not come because replit has started installing it for your convenience."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 424.71999999999997,
+            "end": 428.47999999999996,
+            "text": " Replit wants you to have convenience when you are programming."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 428.48,
+            "end": 430.16,
+            "text": " But you need to know the concepts."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 430.16,
+            "end": 432.40000000000003,
+            "text": " If you run it here, you will get to see the error."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 432.40000000000003,
+            "end": 433.92,
+            "text": " Like I showed you."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 433.92,
+            "end": 438.08000000000004,
+            "text": " But in replit, you see, it has started installing pandas automatically for me."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 438.08000000000004,
+            "end": 441.52000000000004,
+            "text": " Because replit knows that if I have imported pandas,"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 441.52000000000004,
+            "end": 443.76,
+            "text": " then definitely I want to use pandas."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 443.76,
+            "end": 446.32,
+            "text": " So why not install it automatically?"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 446.32,
+            "end": 448.8,
+            "text": " Which I think is a very good thing about replit."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 448.8,
+            "end": 451.36,
+            "text": " So it has installed pandas in python."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 451.36,
+            "end": 454.8,
+            "text": " Now I will write print hi here."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 454.8,
+            "end": 455.68,
+            "text": " I write something like this."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 455.76,
+            "end": 456.72,
+            "text": " And now I will run it."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 456.72,
+            "end": 459.2,
+            "text": " It has been installed because pandas is hi here."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 459.2,
+            "end": 460.8,
+            "text": " I can see it."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 460.8,
+            "end": 462.72,
+            "text": " So this is the specialty of replit."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 462.72,
+            "end": 466.40000000000003,
+            "text": " Now for your convenience, I have written in the text that"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 466.40000000000003,
+            "end": 468.16,
+            "text": " module is like a code library."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 468.16,
+            "end": 469.12,
+            "text": " Which someone else wrote."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 469.12,
+            "end": 472.0,
+            "text": " And you can bring it in your program by using the import keyword."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 472.0,
+            "end": 473.84000000000003,
+            "text": " I will tell you more about this."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 473.84000000000003,
+            "end": 475.68,
+            "text": " Built-in modules and external modules."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 475.68,
+            "end": 476.8,
+            "text": " There are two types of modules."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 476.8,
+            "end": 480.0,
+            "text": " Built-in modules are those that are shipped with python programming language."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 480.0,
+            "end": 483.76,
+            "text": " So let's write built-in modules in python."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 483.84,
+            "end": 486.71999999999997,
+            "text": " Let's see which modules are built-in in python."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 486.71999999999997,
+            "end": 489.52,
+            "text": " Which modules I don't need to install again and again."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 489.52,
+            "end": 492.08,
+            "text": " Here is the list of all the modules."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 492.08,
+            "end": 495.28,
+            "text": " You can see here that there is a module named hashlib."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 495.28,
+            "end": 496.24,
+            "text": " Let's use it."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 496.24,
+            "end": 497.84,
+            "text": " Let's import it as hashlib."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 497.84,
+            "end": 502.4,
+            "text": " And let's see if it will be installed when I import it as hashlib."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 502.4,
+            "end": 504.08,
+            "text": " So you see, as soon as I run it."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 504.08,
+            "end": 506.96,
+            "text": " I am running it and you see that it is not installed."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 506.96,
+            "end": 508.32,
+            "text": " It came after writing simple hi."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 508.32,
+            "end": 511.59999999999997,
+            "text": " But on the other hand, if I write import tensorflow."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 512.0,
+            "end": 513.6,
+            "text": " I will show you tensorflow."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 513.6,
+            "end": 515.44,
+            "text": " So tensorflow will start installing here."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 515.44,
+            "end": 519.28,
+            "text": " You see here it has started installing tensorflow."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 519.28,
+            "end": 521.44,
+            "text": " Because tensorflow is not a built-in module."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 521.44,
+            "end": 525.0400000000001,
+            "text": " It is an external module which needs to be downloaded from the internet and brought."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 525.0400000000001,
+            "end": 526.32,
+            "text": " That's why it is being brought."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 526.32,
+            "end": 528.88,
+            "text": " So you have to bring external modules."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 528.88,
+            "end": 530.8000000000001,
+            "text": " Like the stuff in your house which is over."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 530.8000000000001,
+            "end": 532.88,
+            "text": " You have to bring it every day."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 532.88,
+            "end": 534.08,
+            "text": " You have to bring milk."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 534.08,
+            "end": 535.6,
+            "text": " But you don't have to bring the plate every day."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 535.6,
+            "end": 536.5600000000001,
+            "text": " Because it is in your house."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 536.5600000000001,
+            "end": 537.6,
+            "text": " So the plate is a built-in module."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 537.6,
+            "end": 539.6,
+            "text": " And the milk you are bringing every day from outside."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 539.6,
+            "end": 540.24,
+            "text": " What is that?"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 540.24,
+            "end": 541.28,
+            "text": " That is an external module."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 541.28,
+            "end": 541.84,
+            "text": " Okay."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 541.84,
+            "end": 542.64,
+            "text": " It's fun."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 542.64,
+            "end": 545.44,
+            "text": " See here how to use pip command."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 545.44,
+            "end": 547.6,
+            "text": " I have told you that pip install pandas."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 547.6,
+            "end": 548.5600000000001,
+            "text": " Pandas will be installed."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 548.5600000000001,
+            "end": 550.8000000000001,
+            "text": " You can copy this code by using this button."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 550.8000000000001,
+            "end": 552.64,
+            "text": " So whatever code I am writing here."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 552.64,
+            "end": 554.32,
+            "text": " You copy something like this."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 554.32,
+            "end": 556.24,
+            "text": " And after this, paste it like this."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 556.24,
+            "end": 556.88,
+            "text": " Okay."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 556.88,
+            "end": 558.8000000000001,
+            "text": " And you will be able to run it."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 558.8000000000001,
+            "end": 560.16,
+            "text": " So what happens in pandas?"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 560.16,
+            "end": 561.0400000000001,
+            "text": " There is a module."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 561.0400000000001,
+            "end": 561.84,
+            "text": " Pandas."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 561.84,
+            "end": 563.6,
+            "text": " In which read csv function is there."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 563.6,
+            "end": 565.52,
+            "text": " CSV is a file like excel."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 565.52,
+            "end": 566.64,
+            "text": " You can read it."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 566.64,
+            "end": 568.4,
+            "text": " But don't get into this now."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 568.48,
+            "end": 569.68,
+            "text": " I am just telling you."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 569.68,
+            "end": 571.04,
+            "text": " How these things work."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 571.04,
+            "end": 574.56,
+            "text": " In the coming time, I will make you read everything in detail."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 574.56,
+            "end": 575.52,
+            "text": " So don't worry about it."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 575.52,
+            "end": 576.4,
+            "text": " You guys are also wrong."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 576.4,
+            "end": 576.9599999999999,
+            "text": " Okay."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 576.9599999999999,
+            "end": 578.16,
+            "text": " Now many people are asking."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 578.16,
+            "end": 580.4,
+            "text": " Which python tutorial should I follow?"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 580.4,
+            "end": 582.8,
+            "text": " So always follow the latest videos."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 582.8,
+            "end": 584.24,
+            "text": " There is a blast in the latest videos."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 584.24,
+            "end": 586.24,
+            "text": " So if you are watching the latest video."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 586.24,
+            "end": 587.12,
+            "text": " Then follow it."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 587.12,
+            "end": 588.56,
+            "text": " And many people ask."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 588.56,
+            "end": 590.4,
+            "text": " Which version of python should I use?"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 590.4,
+            "end": 591.68,
+            "text": " So I will tell them too."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 591.68,
+            "end": 593.6,
+            "text": " Use the latest version."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 593.6,
+            "end": 594.88,
+            "text": " If you come on the replate."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 594.88,
+            "end": 597.04,
+            "text": " Then you don't have to worry about it."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 597.04,
+            "end": 598.24,
+            "text": " And I will tell you."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 598.24,
+            "end": 599.92,
+            "text": " As long as it's python 3."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 599.92,
+            "end": 601.04,
+            "text": " Python 3.7."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 601.04,
+            "end": 602.0,
+            "text": " 3.11."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 602.0,
+            "end": 602.88,
+            "text": " 3.8."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 602.88,
+            "end": 605.12,
+            "text": " There is not much difference in these."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 605.12,
+            "end": 606.64,
+            "text": " Your programs will work."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 606.64,
+            "end": 608.48,
+            "text": " Yes, but if python 4 comes."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 608.48,
+            "end": 609.6,
+            "text": " Or python 5 comes."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 609.6,
+            "end": 611.6,
+            "text": " Then it can be a major upgrade."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 611.6,
+            "end": 612.8,
+            "text": " It can be."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 612.8,
+            "end": 614.0,
+            "text": " There is no guarantee that."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 614.0,
+            "end": 616.32,
+            "text": " That many things will remain the same in python 4."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 616.32,
+            "end": 618.32,
+            "text": " So that thing will also be worth seeing."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 618.32,
+            "end": 620.24,
+            "text": " But never take tension about this."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 620.24,
+            "end": 622.08,
+            "text": " Which python do you want to use?"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 622.08,
+            "end": 624.32,
+            "text": " Am I watching the python 3.11 tutorial?"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 624.32,
+            "end": 626.08,
+            "text": " So I can use 3.12."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 626.64,
+            "end": 627.6800000000001,
+            "text": " Absolutely yes."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 627.6800000000001,
+            "end": 628.4000000000001,
+            "text": " You can see."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 628.4000000000001,
+            "end": 630.5600000000001,
+            "text": " Basics will remain the same."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 630.5600000000001,
+            "end": 632.64,
+            "text": " Now the way we have this terminal."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 632.64,
+            "end": 634.4000000000001,
+            "text": " Similarly, there is a shell in replate."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 634.4000000000001,
+            "end": 636.32,
+            "text": " So if you go to the shell."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 636.32,
+            "end": 637.36,
+            "text": " If you write python."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 637.36,
+            "end": 638.8000000000001,
+            "text": " Then the same thing will come open."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 638.8000000000001,
+            "end": 641.44,
+            "text": " See python 3.8.12 is installed in it."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 641.44,
+            "end": 643.36,
+            "text": " So if I write here."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 643.36,
+            "end": 644.64,
+            "text": " Print hello."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 644.64,
+            "end": 646.08,
+            "text": " Okay."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 646.08,
+            "end": 647.76,
+            "text": " W does not come in hello."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 647.76,
+            "end": 649.12,
+            "text": " I know the spelling of hello."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 649.12,
+            "end": 649.6800000000001,
+            "text": " Okay friends."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 649.6800000000001,
+            "end": 650.8000000000001,
+            "text": " I will hit enter."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 650.8000000000001,
+            "end": 652.08,
+            "text": " See hello has been written here."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 652.08,
+            "end": 653.6,
+            "text": " So this terminal."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 653.6,
+            "end": 654.8000000000001,
+            "text": " You get it here."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 654.9599999999999,
+            "end": 657.68,
+            "text": " And your IDE is built in the browser."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 657.68,
+            "end": 658.9599999999999,
+            "text": " So it gets a little easier."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 658.9599999999999,
+            "end": 660.0,
+            "text": " Then I will also come here."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 660.0,
+            "end": 661.8399999999999,
+            "text": " I will see you below."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 661.8399999999999,
+            "end": 662.64,
+            "text": " You will be here."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 662.64,
+            "end": 664.56,
+            "text": " Inside this window."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 664.56,
+            "end": 665.4399999999999,
+            "text": " Which will float."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 665.4399999999999,
+            "end": 668.8,
+            "text": " And then here you will see the text tutorial written by me."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 668.8,
+            "end": 670.3199999999999,
+            "text": " I have written it with a lot of effort."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 670.3199999999999,
+            "end": 671.76,
+            "text": " So do not skip reading."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 671.76,
+            "end": 672.7199999999999,
+            "text": " Even by mistake."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 672.7199999999999,
+            "end": 675.5999999999999,
+            "text": " So you will have a very good learning experience."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 675.5999999999999,
+            "end": 677.8399999999999,
+            "text": " Which was our first python tutorial."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 677.8399999999999,
+            "end": 678.8,
+            "text": " Inside that."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 678.8,
+            "end": 683.4399999999999,
+            "text": " We have crossed almost 3 lakh views in 24 hours."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 683.6,
+            "end": 686.1600000000001,
+            "text": " So this video was running quite trending."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 686.1600000000001,
+            "end": 686.96,
+            "text": " So you guys."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 686.96,
+            "end": 688.8800000000001,
+            "text": " Do access it."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 688.8800000000001,
+            "end": 690.8800000000001,
+            "text": " Click here to bookmark the playlist."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 690.8800000000001,
+            "end": 693.0400000000001,
+            "text": " Click here and save this playlist."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 693.0400000000001,
+            "end": 694.5600000000001,
+            "text": " You guys are going to have a lot of fun."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 694.5600000000001,
+            "end": 696.96,
+            "text": " Python is a very amazing programming language."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 696.96,
+            "end": 698.32,
+            "text": " YouTube uses python."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 698.32,
+            "end": 699.6800000000001,
+            "text": " Python also uses Instagram."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 699.6800000000001,
+            "end": 701.5200000000001,
+            "text": " Python uses Facebook."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 701.5200000000001,
+            "end": 702.32,
+            "text": " Python."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 702.32,
+            "end": 703.84,
+            "text": " Who uses this question?"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 703.84,
+            "end": 706.0,
+            "text": " In fact, the question is who does not use it?"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 706.0,
+            "end": 708.8000000000001,
+            "text": " Python is such a great versatile language."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 708.8000000000001,
+            "end": 710.24,
+            "text": " That almost all people."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 710.24,
+            "end": 711.2800000000001,
+            "text": " All big companies."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 711.2800000000001,
+            "end": 712.24,
+            "text": " Python."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 712.24,
+            "end": 713.0400000000001,
+            "text": " Use."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 713.12,
+            "end": 714.0799999999999,
+            "text": " Now it is clear to us."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 714.0799999999999,
+            "end": 715.28,
+            "text": " Why are we doing programming?"
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 715.28,
+            "end": 716.56,
+            "text": " Because we are humans."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 716.56,
+            "end": 717.36,
+            "text": " As humans."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 717.36,
+            "end": 718.88,
+            "text": " We do some things well."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 718.88,
+            "end": 719.8399999999999,
+            "text": " And as a computer."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 719.8399999999999,
+            "end": 721.1999999999999,
+            "text": " The computer does something good."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 721.1999999999999,
+            "end": 723.28,
+            "text": " So we want to get that work done from the computer."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 723.28,
+            "end": 724.56,
+            "text": " In which the computer is good."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 724.56,
+            "end": 725.5999999999999,
+            "text": " And in which we are good."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 725.5999999999999,
+            "end": 728.88,
+            "text": " We are doing that work in our daily life."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 728.88,
+            "end": 731.76,
+            "text": " So that's why we use the python programming language."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 731.76,
+            "end": 733.52,
+            "text": " Because it is very easy."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 733.52,
+            "end": 735.12,
+            "text": " I definitely meet on day 4."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 735.12,
+            "end": 736.8,
+            "text": " That's all for this video for now."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 736.8,
+            "end": 739.28,
+            "text": " Thank you so much guys for watching this video."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 739.28,
+            "end": 742.0799999999999,
+            "text": " And I will see you next time."
+        },
+        {
+            "number": "3",
+            "title": "Modules and Pip",
+            "start": 743.04,
+            "end": 760.64,
+            "text": " Music."
+        }
+    ],
+    "text": " Welcome back to 100 days of code. In today's video, we'll talk about modules. And what is PIP? Modules are basically used to borrow other people's code. That means you can use someone else's code in your Python program with the help of modules. There are two types of modules. We have built-in modules. And we have external modules which are installed with the help of PIP. External modules are those codes that people have written and they want you to use their code in your Python program. Let's say I'm using this phone. I don't know what's going on inside this phone and how it's working. But I'm still able to use this phone. This is an external module for me. I don't know what its implementation is. But I'm able to use it. Built-in modules, on the other hand, are those modules that are shipped with the Python programming language. That means you don't need to install them externally. We use modules because we don't want to code every basic thing from scratch. If you're working in a big machine learning program, if you're making a self-driving car with artificial intelligence, you won't want to write a program to get an average of 10 numbers. Or you can write a program to get a geometric mean of 10 numbers. It can have a human error. This code is written inside the modules. It's well-tested. It's written by experts. And because a lot of people have used it, it has very low chances of error. Now, if you want, you can write a program from scratch for your understanding. But if you use modules, you'll save time and effort. And you'll be able to work on a big thing. Let's go to the computer screen and install some modules and see how they work. Let's get started. So guys, I'm inside my computer screen. And I'll open my Day 3 raffle here quickly. And here you'll get to see this video that I'm recording right now. But because this video is not recorded here, I'll put it aside. You'll get to see the video here. By the way, tell me. And along with that, I'll adjust it like this. You can adjust it as you like. I want to tell you quickly what modules are in Python. Whenever you write any code in Python programming language, you can write it in two ways. Either you're writing that code yourself or you can take help from modules. If you've installed Python in your computer and you go to your terminal and you write pip, you'll get to see a utility. Because I'm in Mac, pip3 will work in my computer. If you're in Linux or Mac, pip3 will work. Pip works in Windows. But you can see here, as soon as I wrote pip3, I got to see a lot of things here. If I write pip3 install pandas, now you don't need to know what pandas is, what I'm writing. So you can see here, it's collecting pandas. It's downloading a package from 1.1 MBPS. Let me explain what's going on here. When I write pip install pandas, then I command my pip that I want to install a package named pandas. Now what is pandas? It's a data analysis library, as you can see here. But let me tell you that you can use a lot of modules in the same way. Look here, I've used pandas. Now, this is a way to explain what pip is. When you were a kid, your mom used to send you things. And she'd tell you to go get milk, or get yogurt, or get bread, or get butter. And whatever you brought home, it was available at your house. So you were basically the package manager of your house. Whatever you needed, you brought it from a useful place and kept it at home. That's how pip is a package manager. Whatever you need, it brings it from the internet and installs it in your Python interpreter. For example, it has installed pandas here, as you can see. Now I can use pandas. But do you need to bring everything? If you need a refrigerator, then there is a refrigerator in almost every house. And you don't need to bring the refrigerator from outside. It's a built-in module. It's available in your house. There is a needle in every house. There is a needle thread. There is a spoon in every house. There is a plate in every house. So these are all built-in modules. They are available in every house. So you don't need to bring it from outside every time. That's how built-in modules and external modules work. So whatever module we need to install, we can install it with the help of pip. And after that, if I write Python 3 here, and if you are in Windows, then write Python. So you will get to see Python 3.11 in this way. Let me zoom in a little. Yes, it's fine now. So if I write import pandas here, then you see, I will not get to see the error. But if I write import sklearn here, then I will get to see the error. Module not found error. No module named sklearn. This happened because this module was not present in my computer. Now don't worry at all, what are all these things being written? You won't understand. I know. I'm just telling you for your understanding how modules are grabbed. So I will come out of Python's wrapper. I will write exit. Now if I want to install sklearn, then I will write pip3 install scikit-learn. Now when I use the package, I will write sklearn. But I will install it in the name of scikit-learn. So you can see it is installing. And it is installing at a very good speed. And now if I write python3 and import sklearn, then my work will be done. Now it is installing some dependencies, which may take some time. What is sklearn? It is a machine learning library. Are we using it now? Not just yet. Okay. So if I write sklearn here, then you will get to see the machine learning library in Python. We will do everything. We will make a blast. You don't worry. A lot of people are commenting to me right now that it is running very slow. We know a lot of things. I meet them after a few days. And when the difficulty level increases a little, and there will be an understanding, then it is guaranteed. You follow me step by step all day. Here I want to show you, as soon as it is installed, and I will write python3 after this, I want to show you import sklearn. The import sklearn will work here. You see, I will import sklearn. It will work. No error will come. Okay. So I will exit it here. Now this thing that we are able to see by writing python3 here, this is a repl. This is a repl. Repl means read, evaluate, print loop. Okay. We will not use it. We will write proper programs. And we will execute it by writing python scripts. And for this, I am using replit. Can you do it without replit? Absolutely, it is possible. But I am using replit because replit is very convenient. Okay. So I will make a file here called main.py. And I will take the output of this console here. You see, as soon as I drag it and leave it here, I will get to see the output here. You will also get to see my video here, which is going to be super convenient for you. So in main.py, what I will simply write here, I will write import pandas. And you know what is the best thing about replit? As soon as I run it, it will detect that there is no pandas. So it will automatically install it. So don't be confused that why there is no error. The error did not come because replit has started installing it for your convenience. Replit wants you to have convenience when you are programming. But you need to know the concepts. If you run it here, you will get to see the error. Like I showed you. But in replit, you see, it has started installing pandas automatically for me. Because replit knows that if I have imported pandas, then definitely I want to use pandas. So why not install it automatically? Which I think is a very good thing about replit. So it has installed pandas in python. Now I will write print hi here. I write something like this. And now I will run it. It has been installed because pandas is hi here. I can see it. So this is the specialty of replit. Now for your convenience, I have written in the text that module is like a code library. Which someone else wrote. And you can bring it in your program by using the import keyword. I will tell you more about this. Built-in modules and external modules. There are two types of modules. Built-in modules are those that are shipped with python programming language. So let's write built-in modules in python. Let's see which modules are built-in in python. Which modules I don't need to install again and again. Here is the list of all the modules. You can see here that there is a module named hashlib. Let's use it. Let's import it as hashlib. And let's see if it will be installed when I import it as hashlib. So you see, as soon as I run it. I am running it and you see that it is not installed. It came after writing simple hi. But on the other hand, if I write import tensorflow. I will show you tensorflow. So tensorflow will start installing here. You see here it has started installing tensorflow. Because tensorflow is not a built-in module. It is an external module which needs to be downloaded from the internet and brought. That's why it is being brought. So you have to bring external modules. Like the stuff in your house which is over. You have to bring it every day. You have to bring milk. But you don't have to bring the plate every day. Because it is in your house. So the plate is a built-in module. And the milk you are bringing every day from outside. What is that? That is an external module. Okay. It's fun. See here how to use pip command. I have told you that pip install pandas. Pandas will be installed. You can copy this code by using this button. So whatever code I am writing here. You copy something like this. And after this, paste it like this. Okay. And you will be able to run it. So what happens in pandas? There is a module. Pandas. In which read csv function is there. CSV is a file like excel. You can read it. But don't get into this now. I am just telling you. How these things work. In the coming time, I will make you read everything in detail. So don't worry about it. You guys are also wrong. Okay. Now many people are asking. Which python tutorial should I follow? So always follow the latest videos. There is a blast in the latest videos. So if you are watching the latest video. Then follow it. And many people ask. Which version of python should I use? So I will tell them too. Use the latest version. If you come on the replate. Then you don't have to worry about it. And I will tell you. As long as it's python 3. Python 3.7. 3.11. 3.8. There is not much difference in these. Your programs will work. Yes, but if python 4 comes. Or python 5 comes. Then it can be a major upgrade. It can be. There is no guarantee that. That many things will remain the same in python 4. So that thing will also be worth seeing. But never take tension about this. Which python do you want to use? Am I watching the python 3.11 tutorial? So I can use 3.12. Absolutely yes. You can see. Basics will remain the same. Now the way we have this terminal. Similarly, there is a shell in replate. So if you go to the shell. If you write python. Then the same thing will come open. See python 3.8.12 is installed in it. So if I write here. Print hello. Okay. W does not come in hello. I know the spelling of hello. Okay friends. I will hit enter. See hello has been written here. So this terminal. You get it here. And your IDE is built in the browser. So it gets a little easier. Then I will also come here. I will see you below. You will be here. Inside this window. Which will float. And then here you will see the text tutorial written by me. I have written it with a lot of effort. So do not skip reading. Even by mistake. So you will have a very good learning experience. Which was our first python tutorial. Inside that. We have crossed almost 3 lakh views in 24 hours. So this video was running quite trending. So you guys. Do access it. Click here to bookmark the playlist. Click here and save this playlist. You guys are going to have a lot of fun. Python is a very amazing programming language. YouTube uses python. Python also uses Instagram. Python uses Facebook. Python. Who uses this question? In fact, the question is who does not use it? Python is such a great versatile language. That almost all people. All big companies. Python. Use. Now it is clear to us. Why are we doing programming? Because we are humans. As humans. We do some things well. And as a computer. The computer does something good. So we want to get that work done from the computer. In which the computer is good. And in which we are good. We are doing that work in our daily life. So that's why we use the python programming language. Because it is very easy. I definitely meet on day 4. That's all for this video for now. Thank you so much guys for watching this video. And I will see you next time. Music."
+}

@@ -1,0 +1,7 @@
+For your question "String Methods in Python", I found relevant information in the course material.
+
+The topic "String Methods in Python" is covered under lesson number 13, starting from timestamp 185.0 and ending at 189.0.
+
+There, you can learn about what string methods do. 
+
+However, the exact answer or further explanation of what string methods do could not be found clearly present in the retrieved course material.

@@ -1,0 +1,26 @@
+[
+    {
+        "filename": "12_Strings Slicing and Operations on Strings in Python.json",
+        "error": "500 Server Error: Internal Server Error for url: http://localhost:11434/api/embed"
+    },
+    {
+        "filename": "12_Strings Slicing and Operations on Strings in Python.mp3.json",
+        "error": "500 Server Error: Internal Server Error for url: http://localhost:11434/api/embed"
+    },
+    {
+        "filename": "17_For Loops in Python.json",
+        "error": "500 Server Error: Internal Server Error for url: http://localhost:11434/api/embed"
+    },
+    {
+        "filename": "20_Functions in Python.json",
+        "error": "500 Server Error: Internal Server Error for url: http://localhost:11434/api/embed"
+    },
+    {
+        "filename": "3_Modules and Pip.json",
+        "error": "500 Server Error: Internal Server Error for url: http://localhost:11434/api/embed"
+    },
+    {
+        "filename": "6_Variables and Data Types.json",
+        "error": "500 Server Error: Internal Server Error for url: http://localhost:11434/api/embed"
+    }
+]

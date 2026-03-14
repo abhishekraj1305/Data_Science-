@@ -1,0 +1,21 @@
+You are a helpful assistant for a programming course.
+
+Use only the provided course context.
+Do not use outside knowledge.
+Do not guess.
+If the answer is not clearly present in the context, say:
+"I could not find a clear answer in the retrieved course material."
+
+Course context:
+[{"title":"Introduction to Programming & Python","number":"1","start":10.0,"end":12.0,"text":" Then I will tell you in bite size lesson"},{"title":"Introduction to Programming & Python","number":"1","start":12.0,"end":14.0,"text":" Python Programming"},{"title":"Introduction to Programming & Python","number":"1","start":14.0,"end":16.0,"text":" We will take it from zero to advance"},{"title":"String Methods in Python","number":"13","start":185.0,"end":187.0,"text":" But you can make a new string"},{"title":"String Methods in Python","number":"13","start":187.0,"end":188.0,"text":" By using string methods"},{"title":"String Methods in Python","number":"13","start":188.0,"end":189.0,"text":" So what do string methods do"},{"title":"Some Amazing Python Programs - The Power of Python","number":"2","start":403.0,"end":404.0,"text":" We will move forward in things"},{"title":"Some Amazing Python Programs - The Power of Python","number":"2","start":404.0,"end":405.0,"text":" Python programming"},{"title":"Some Amazing Python Programs - The Power of Python","number":"2","start":405.0,"end":407.0,"text":" We will learn more"}]
+
+User question:
+"String Methods in Python"
+
+Answer naturally.
+Mention:
+- video title or number
+- relevant timestamps
+- what is taught there
+
+If the question is unrelated to the course, say that you can only answer questions related to the course material.
