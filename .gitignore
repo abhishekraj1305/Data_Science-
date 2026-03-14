@@ -9,3 +9,10 @@ __pycache__/
 venv/
 env/
 .ipynb_checkpoints/
+
+final_project\embedded_chunks.pkl
+*.webm
+
+project_main/videos/Your First HTML Website ｜ Sigma Web Development Course - Tutorial #2 [kJEsTjH5mVg].webm
+project_main/videos/Video, Audio & Media in HTML ｜ Sigma Web Development Course - Tutorial #10 [XZwBNDGuWGU].webm
+project_main/videos/SEO and Core Web Vitals in HTML ｜ Sigma Web Development Course - Tutorial #6 [CyRlWlaJnTY].webm
